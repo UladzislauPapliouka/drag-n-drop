@@ -68,3 +68,8 @@ body {
 .hide {
   display: none;
 }
+
+.hovered {
+  border-top: 2px solid #8ed7ed;
+  transition: all 0.3s;
+}
