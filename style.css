@@ -47,6 +47,7 @@ body {
 }
 
 .placeholder {
+  border-radius: 20px;
   width: 150px;
   height: 66px;
 }
@@ -63,13 +64,16 @@ body {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-.hold {}
+.hold {
+  background-color: rgba(197, 52, 52, 0.666);
+  color: #fff;
+}
 
 .hide {
   display: none;
 }
 
 .hovered {
-  border-top: 2px solid #8ed7ed;
-  transition: all 0.3s;
+  background-color: rgba(86, 86, 86, 0.2);
+  transition: all 0.3s ease-in;
 }
